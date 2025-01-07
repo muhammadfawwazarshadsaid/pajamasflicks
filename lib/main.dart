@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pajamasflicks/onboarding.dart';
+import 'package:pajamasflicks/src/features/authentication/screens/onboarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Pajamas Flicks',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
